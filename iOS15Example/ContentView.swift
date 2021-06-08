@@ -10,16 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "music.note.tv")
-            if #available(iOS 15.0, *) {
-                Image(systemName: "music.note.tv")
-                    .symbolVariant(.fill)
-                Image(systemName: "music.note.tv")
-                    .symbolVariant(.circle)
-            } else {
-                // Fallback on earlier versions
-            }
-
+            Button("SF Symbols", action: {
+                
+            })
         }
         .font(.largeTitle)
         .padding()
