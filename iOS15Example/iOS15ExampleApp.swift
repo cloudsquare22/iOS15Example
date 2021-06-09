@@ -11,7 +11,12 @@ import SwiftUI
 struct iOS15ExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            if #available(iOS 15.0, *) {
+                SFSymbols()
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }
