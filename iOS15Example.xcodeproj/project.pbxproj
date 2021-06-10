@@ -13,6 +13,7 @@
 		8DF2E81A26701B3700ECED24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2E81926701B3700ECED24 /* Preview Assets.xcassets */; };
 		8DF2E8212670214100ECED24 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2E8202670214100ECED24 /* SFSymbols.swift */; };
 		8DF2E82326716A6600ECED24 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2E82226716A6600ECED24 /* CanvasView.swift */; };
+		8DF2E825267234DF00ECED24 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2E824267234DF00ECED24 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8DF2E81926701B3700ECED24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DF2E8202670214100ECED24 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		8DF2E82226716A6600ECED24 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		8DF2E824267234DF00ECED24 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8DF2E81826701B3700ECED24 /* Preview Content */,
 				8DF2E8202670214100ECED24 /* SFSymbols.swift */,
 				8DF2E82226716A6600ECED24 /* CanvasView.swift */,
+				8DF2E824267234DF00ECED24 /* ButtonView.swift */,
 			);
 			path = iOS15Example;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				8DF2E81526701B3700ECED24 /* ContentView.swift in Sources */,
 				8DF2E81326701B3700ECED24 /* iOS15ExampleApp.swift in Sources */,
+				8DF2E825267234DF00ECED24 /* ButtonView.swift in Sources */,
 				8DF2E82326716A6600ECED24 /* CanvasView.swift in Sources */,
 				8DF2E8212670214100ECED24 /* SFSymbols.swift in Sources */,
 			);
