@@ -59,6 +59,14 @@ struct SFSymbols: View {
                         .font(.caption)
                 }
                 .padding()
+                VStack {
+                    Image(systemName: "thermometer.sun.fill")
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(.red, .orange)
+                    Text("symbolRenderingMode(.palette)")
+                        .font(.caption)
+                }
+                .padding()
             }
         }
         .font(.largeTitle)

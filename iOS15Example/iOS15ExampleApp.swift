@@ -13,9 +13,9 @@ struct iOS15ExampleApp: App {
         WindowGroup {
 //            ContentView()
             if #available(iOS 15.0, *) {
-//                SFSymbols()
+                SFSymbols()
 //                CanvasView()
-                ButtonView()
+//                ButtonView()
             } else {
                 // Fallback on earlier versions
             }
