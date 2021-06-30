@@ -7,18 +7,16 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 @main
 struct iOS15ExampleApp: App {
     var body: some Scene {
         WindowGroup {
+            ExampleNavigationView()
 //            ContentView()
-            if #available(iOS 15.0, *) {
-                SFSymbols()
+//                SFSymbols()
 //                CanvasView()
 //                ButtonView()
-            } else {
-                // Fallback on earlier versions
-            }
         }
     }
 }
