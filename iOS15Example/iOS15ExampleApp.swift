@@ -12,7 +12,8 @@ import SwiftUI
 struct iOS15ExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ExampleNavigationView()
+            Annimation()
+//            ExampleNavigationView()
 //            ContentView()
 //                SFSymbols()
 //                CanvasView()

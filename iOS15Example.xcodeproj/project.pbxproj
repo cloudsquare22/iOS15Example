@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D3229FC268C992B0099D4E6 /* ExampleNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3229FB268C992B0099D4E6 /* ExampleNavigationView.swift */; };
+		8D3229FE269331070099D4E6 /* Annimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3229FD269331070099D4E6 /* Annimation.swift */; };
 		8DF2E81326701B3700ECED24 /* iOS15ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2E81226701B3700ECED24 /* iOS15ExampleApp.swift */; };
 		8DF2E81526701B3700ECED24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2E81426701B3700ECED24 /* ContentView.swift */; };
 		8DF2E81726701B3700ECED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2E81626701B3700ECED24 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8D3229FB268C992B0099D4E6 /* ExampleNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigationView.swift; sourceTree = "<group>"; };
+		8D3229FD269331070099D4E6 /* Annimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annimation.swift; sourceTree = "<group>"; };
 		8DF2E80F26701B3700ECED24 /* iOS15Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS15Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF2E81226701B3700ECED24 /* iOS15ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15ExampleApp.swift; sourceTree = "<group>"; };
 		8DF2E81426701B3700ECED24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				8DF2E82226716A6600ECED24 /* CanvasView.swift */,
 				8DF2E824267234DF00ECED24 /* ButtonView.swift */,
 				8D3229FB268C992B0099D4E6 /* ExampleNavigationView.swift */,
+				8D3229FD269331070099D4E6 /* Annimation.swift */,
 			);
 			path = iOS15Example;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				8DF2E825267234DF00ECED24 /* ButtonView.swift in Sources */,
 				8DF2E82326716A6600ECED24 /* CanvasView.swift in Sources */,
 				8DF2E8212670214100ECED24 /* SFSymbols.swift in Sources */,
+				8D3229FE269331070099D4E6 /* Annimation.swift in Sources */,
 				8D3229FC268C992B0099D4E6 /* ExampleNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
