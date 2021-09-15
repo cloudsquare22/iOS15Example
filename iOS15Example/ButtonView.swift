@@ -13,9 +13,9 @@ struct ButtonView: View {
         VStack {
             HStack {
                 Button("Sign In", action: {})
-                    .buttonStyle(BorderedButtonStyle(shape: .roundedRectangle))
+                    .buttonStyle(BorderedButtonStyle())
                 Button("Register", action: {})
-                    .buttonStyle(BorderedButtonStyle(shape: .capsule))
+                    .buttonStyle(BorderedButtonStyle())
             }
             Button("Delete", role: .destructive, action: {})
                 .buttonStyle(.bordered)
